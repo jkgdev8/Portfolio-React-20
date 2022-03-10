@@ -28,20 +28,12 @@ const PhotoList = ({ category }) => {
       link:"https://tech-blog-ucla1.herokuapp.com/"  
     },
     {
-      name: 'Tech Blogged',
+      name: 'Employee Tracker',
       category: 'work',
       description:
-        'A CMS-style blog site so that you can publish articles, blog posts, with thoughts and opinions',
-      link:"https://tech-blog-ucla1.herokuapp.com/"  
-    },
-    {
-      name: 'Tech Blogged',
-      category: 'work',
-      description:
-        'A CMS-style blog site so that you can publish articles, blog posts, with thoughts and opinions',
-      link:"https://tech-blog-ucla1.herokuapp.com/"  
+        "A command-line application to manage a company's employee database, using Node.js, Inquirer, and MySQL. Dont forget to clone the code from the repo and run npm install",
+      link:"https://github.com/jkgdev8/Employee-Tracker-UCLA-Challenge-12"  
     }
-    
     
     
   

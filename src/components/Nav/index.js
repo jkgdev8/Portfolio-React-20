@@ -16,10 +16,10 @@ function Nav(props) {
   }, [currentCategory]);
 
   return (
-    <header className="flex-row px-1">
-      <h2>
+    <header >
+      <h2 className="flex-h px-1">
         
-        <a data-testid="link" href="/">
+        <a  href="/">
           
           <span > <img src={logo} style={{ width: "50px", height: "50px", display: "inline" }} alt="" /> </span> 
         </a>
