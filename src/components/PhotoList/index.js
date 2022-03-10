@@ -7,35 +7,42 @@ const PhotoList = ({ category }) => {
 
   const [photos] = useState([
     {
-      name: 'Grocery aisle',
+      name: 'Budget Tracker',
       category: 'work',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'Budget Tracker is a progressive web application that allows users to track their budgets by adding expenses and deposits to their budget through the "Add/Subtract Funds" buttons. They are able to add a transaction with or without a connection. ',
+      link:"https://pwa-budgettrack-19.herokuapp.com/"  
     },
     {
-      name: 'Grocery booth',
+      name: 'Subtrakd',
       category: 'work',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'A simple Calendar app that will help you keep track of your recurring subscriptions when you input your info!',
+      link:"https://subtrakd.herokuapp.com/"  
     },
     {
-      name: 'Building exterior',
+      name: 'Tech Blogged',
       category: 'work',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'A CMS-style blog site so that you can publish articles, blog posts, with thoughts and opinions',
+      link:"https://tech-blog-ucla1.herokuapp.com/"  
     },
     {
-      name: 'Restaurant table',
+      name: 'Tech Blogged',
       category: 'work',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
+        'A CMS-style blog site so that you can publish articles, blog posts, with thoughts and opinions',
+      link:"https://tech-blog-ucla1.herokuapp.com/"  
     },
     {
-      name: 'Cafe interior',
+      name: 'Tech Blogged',
       category: 'work',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricie'
-    },
+        'A CMS-style blog site so that you can publish articles, blog posts, with thoughts and opinions',
+      link:"https://tech-blog-ucla1.herokuapp.com/"  
+    }
+    
+    
     
   
   ]);
