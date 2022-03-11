@@ -1,4 +1,4 @@
-
+//Needs links to my Github, Linkedin, and a Third Platform?
 
 import React from "react";
 
@@ -7,23 +7,22 @@ function Footer() {
     <footer className="footer">
       <div className="content has-text-centered">
         <p>
-          <strong>Follow my socials!</strong> 
+          <strong>Check out my socials!</strong> 
           
-        
           <hr />
           <a href="https://github.com/jkgdev8" target="_blank" rel="noreferrer">
             Github
           </a>
-
           {" "}
           |{" "}{" "}
           
-          <a href="https://linkedin.com/in/juliennegarcia"
-            target="_blank" rel="noreferrer">
-            LinkedIn
+          <a
+            href="www.linkedin.com/in/juliennegarcia
+            "
+            target="_blank" rel="noreferrer"
+          >
+            LinkdIn
           </a>
-          
-          
         </p>
       </div>
     </footer>
