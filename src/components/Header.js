@@ -5,6 +5,7 @@ import About from "./About";
 import Contact from "./Contact";
 import Portfolio from "./Portfolio";
 import Resume from "./Resume";
+import logo from "./logo.png";
 
 function Header() {
   const [currentPage, handlePageChange] = useState("About");
@@ -34,9 +35,9 @@ function Header() {
             className="navbar-item"
             rel="noreferrer"
             target="_blank"
-            href="https://github.com/EmilyNecciai?tab=repositories"
+            href="https://github.com/jkgdev8?tab=repositories"
           >
-            <span className="content is-large">Julienne Garcia</span>
+            <span className="content is-large">Julienne Garcia<img src={logo} style={{ width: "auto", height: "auto", display: "inline" }} alt="" /></span>
           </a>
         </div>
       </nav>

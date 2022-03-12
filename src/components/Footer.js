@@ -17,8 +17,7 @@ function Footer() {
           |{" "}{" "}
           
           <a
-            href="www.linkedin.com/in/juliennegarcia
-            "
+            href="https://www.linkedin.com/in/juliennegarcia/"
             target="_blank" rel="noreferrer"
           >
             LinkdIn
