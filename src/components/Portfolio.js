@@ -40,6 +40,24 @@ const projects = [
     repo: "https://github.com/jkgdev8/Employee-Tracker-UCLA-Challenge-12",
     live: "https://github.com/jkgdev8/Employee-Tracker-UCLA-Challenge-12",
   },
+  {
+    id: 4,
+    title: 'Portfolio Generator',
+    image: "/img/4.png",
+    alt:"/img/44.png",
+    description: "My project is a Profile generator. The project will help a user generate a Profile without having to worry about applying proper mark down syntax.",
+    repo: "https://github.com/jkgdev8/portfolio-generator",
+    live: "https://github.com/jkgdev8/portfolio-generator",
+  },
+  {
+    id: 5,
+    title: 'Password Generator',
+    image: "/img/5.jpg",
+    alt:"/img/55.jpg",
+    description: "An application that randomly generates a password based on defined criteria ensuring strong security.",
+    repo: "https://github.com/jkgdev8/Password-Generator-UCLA-Challenge-3",
+    live: "https://jkgdev8.github.io/Password-Generator-UCLA-Challenge-3/",
+  },
 
   
 ];
@@ -49,7 +67,7 @@ function Portfolio() {
     <div>
       <p className="content is-medium">Portfolio</p>
       <hr />
-
+      <p> *hover over images to preview </p>
       <Project projects={projects} />
     </div>
   );

@@ -19,17 +19,19 @@ function Resume() {
             <i className="fas fa-download"></i>
           </span>
           <span>Download My Resume</span>
+          
         </a>
+        <p> *Resume WIP</p>
       </div>
       <div className="column">
         <p className="content is-medium">Skills</p>
         <hr />
         <ul>
             <li>HTML, CSS, Javascript</li>
-            <li>OpenAPI, YAML, JSON</li>
-            <li>Markdown</li>
+            <li>Node, MySQL, React</li>
+            
             <li>Git</li>
-            <li>Github Repo</li>
+            
         </ul>
       </div>
     </div>
