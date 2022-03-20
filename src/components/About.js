@@ -1,13 +1,15 @@
 import React from 'react';
 // import coverImage from '../../assets/cover/cover-image.jpg';
-import photome from '../assets/photome/profile.jpg';
+import photome from './profile.jpg';
 
 function About() {
+  console.log(photome)
   return (
+    
     <div>
       <p className="content is-medium">Full Stack Developer</p>
       <hr />
-      <img className="my-pic" src={process.env.PUBLIC_URL + photome} alt="Julienne Garcia"/>
+      <img className="my-pic" src={photome} alt="Julienne Garcia" />
       <p className="content is-italic mt-4">
         Im Julienne, an entry full stack developer that cant wait to dominate the tech game. 
       </p>

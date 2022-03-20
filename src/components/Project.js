@@ -4,6 +4,9 @@ import React from "react";
 
 
 function Project(props) {
+  console.log(process.env.PUBLIC_URL)
+  console.log(props.projects)
+
   return (
     <div>
       <div className="columns is-desktop is-justify-content-center is-flex-wrap-wrap is-flex-direction-row">
@@ -11,13 +14,22 @@ function Project(props) {
           <div className="column is-half">
             <div className="card">
               <div className="card-image">
-                <figure className="image is-4by3">
-                  <p>
-                  <img src={process.env.PUBLIC_URL + project.image} alt={"Placeholder image"} onMouseOver={e => e.currentTarget.src = project.alt} onMouseOut={e => e.currentTarget.src = project.image} />
-                  </p>
-                  
-                  
-                </figure>
+              <figure className="image is-4by3">
+									<p>
+										<img
+											src={process.env.PUBLIC_URL + project.image}
+											alt={'Placeholder'}
+											onMouseOver={(e) =>
+												(e.currentTarget.src =
+													process.env.PUBLIC_URL + project.alt)
+											}
+											onMouseOut={(e) =>
+												(e.currentTarget.src =
+													process.env.PUBLIC_URL + project.image)
+											}
+										/>
+									</p>
+								</figure>
                 
                 <div className="card-content">
                 <div className="media">
