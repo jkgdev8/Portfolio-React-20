@@ -11,7 +11,7 @@ Module 20 challenge - An updated portfolio showcasing my full stack dev projects
 - [Questions](#questions)
 
 ### Live Site
-https://github.com/jkgdev8/Portfolio-React-20
+https://jkgdev8.github.io/Portfolio-React-20/
 
 
 ### Preview 
