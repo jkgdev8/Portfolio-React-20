@@ -24,12 +24,12 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Tech Blogged',
-    image: "/img/2.jpg",
-    alt:"/img/22.jpg",
-    description: "A CMS-style blog site so that you can publish articles, blog posts, with thoughts and opinions",
-    repo: "https://github.com/jkgdev8/Tech-Blog-UCLA-Challenge-14",
-    live: "https://tech-blog-ucla1.herokuapp.com/",
+    title: 'Fantalk Sports',
+    image: "/img/2.png",
+    alt:"/img/22.png",
+    description: "Social Sports Talk Forum!",
+    repo: "https://github.com/jkgdev8/FanTalk-Sports",
+    live: "https://fantalksports.herokuapp.com/",
   },
   {
     id: 3,
